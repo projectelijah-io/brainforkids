@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "BrainForKids — Rethinking Knowledge",
+    "description": "A declaration for the next generation: knowledge chosen by the public, delivered to every child in their own frequency, and schools that become playgrounds for ideas, sport and community.",
+    "ogAlt": "B4K — Rethinking Knowledge."
+  },
+  "nav": {
+    "declaration": "Declaration",
+    "teachers": "Teachers",
+    "school": "School",
+    "vehicles": "Vehicles",
+    "stage": "Teach"
+  },
+  "hero": {
+    "eyebrow": "A declaration for the next generation",
+    "title1": "Rethinking",
+    "title2": "Knowledge",
+    "dot": ".",
+    "lead": "Knowledge, chosen by the public and delivered to every child in their own frequency, while schools become playgrounds for ideas, sport and community.",
+    "cta": "Read the Declaration"
+  },
+  "declaration": {
+    "label": "The Declaration",
+    "p1": "For generations, school has been the place children go to receive information from adults. One teacher, one board, one pace for thirty different minds.",
+    "p2": "We declare that era over. Information is everywhere. What is scarce is the spark: meeting the right person, at the right moment, in a voice that reaches you.",
+    "p3": "BrainForKids opens education to the intelligence of an entire country, and gives the school back what only a school can be: the place where children meet.",
+    "ages": "For every school age, from grade 1 to grade 12."
+  },
+  "teachers": {
+    "num": "01",
+    "title": "The Teachers",
+    "lead": "Anyone whose knowledge and presence we, as citizens, find worth learning from.",
+    "body": "An engineer who builds smart systems. An English teacher who teaches while cooking. A trainer who explains anatomy in the gym. A gifted pupil who makes maths simple for younger children. Anyone can step forward.",
+    "p1": "Send a short presentation video to the open competition.",
+    "p2": "The public watches, on a reality-TV show and on an always-open web stream, and votes for what sparks its curiosity.",
+    "p3": "Winning content opens to the age groups it fits, from grade 1 to grade 12.",
+    "p4": "Every year the competition starts again, and the door opens to new teachers."
+  },
+  "school": {
+    "num": "02",
+    "title": "The School",
+    "lead": "No longer a place to collect information. A playground.",
+    "body": "When knowledge arrives through the screen and travels with the child, the school day is freed for everything that cannot be streamed.",
+    "c1t": "Missions",
+    "c1": "Real challenges that children take on together.",
+    "c2t": "Ideas",
+    "c2": "Pupils exchanging thoughts and building on each other's thinking.",
+    "c3t": "Sport",
+    "c3": "A lot of it. Every day.",
+    "c4t": "Community",
+    "c4": "Working for the commonwealth of the city around them.",
+    "guides": "The adults in the building become guides. They sharpen what was learned, notice who drifted, hold attention and fill the gaps."
+  },
+  "vehicles": {
+    "num": "03",
+    "title": "The Vehicles",
+    "lead": "The technology that carries knowledge to every child.",
+    "v1t": "The Screen",
+    "v1": "A large screen where the chalkboard used to be. For an hour or two a day, children meet a subject and the person who brings it.",
+    "v2t": "The Capsule",
+    "v2": "Learning continues in the Capsule, a personal pod from The Capsule Project, close to home.",
+    "v3t": "Matched Frequency",
+    "v3": "A technology we are setting out to build. It listens to the child's voice and reshapes the teacher's voice, the same words and the same person, into the frequency and tone that child absorbs best.",
+    "v3tag": "In research"
+  },
+  "journey": {
+    "title": "How knowledge travels",
+    "s1t": "Spark",
+    "s1": "At school, on the big screen.",
+    "s2t": "Deepen",
+    "s2": "In the app, at home, in the Capsule.",
+    "s3t": "Play",
+    "s3": "Back in the school yard, with others."
+  },
+  "stage": {
+    "title": "Want to teach the next generation?",
+    "body": "Record a short presentation of what you would teach, and how. When the competition opens, the whole country will be watching.",
+    "cta": "Applications open soon"
+  },
+  "pilot": {
+    "title": "Where it begins",
+    "body": "A joint pilot with the city of Herzliya and its residents. One school first, then gradual expansion as the results come in."
+  },
+  "footer": {
+    "founder": "Founded by Ronen Priewer",
+    "venture": "A Project Elijah venture"
+  }
+}
