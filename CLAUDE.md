@@ -1,4 +1,4 @@
-# BrainForKids — brainforkids.io
+# BrainForKids — b4k.io
 
 Static site for **BrainForKids (B4K)**, a Project Elijah venture: a public declaration for the next
 generation of education. Tagline: **Rethinking Knowledge** / **מחשבה חדשה על ידע** / **知識を、考え直す**.
@@ -47,5 +47,7 @@ netlify.toml           Build command + publish dir
 `node build.mjs && npx serve dist`
 
 ## Deployment
+
+Live domain: **b4k.io** (canonical, hreflang, og:url and share images all use it; brainforkids.io does not resolve).
 
 Netlify, deployed from GitHub (push to the default branch triggers a deploy). Build `node build.mjs`, publish `dist`.

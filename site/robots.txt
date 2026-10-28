@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://b4k.io/sitemap.xml
