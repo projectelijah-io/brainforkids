@@ -168,6 +168,24 @@
   </div>
 </section>
 
+<section class="lead section" id="join">
+  <div class="lead-inner">
+    <h2 class="lead-title">{{lead.title}}</h2>
+    <p class="lead-intro">{{lead.intro}}</p>
+    <form class="lead-form" name="join" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-success="{{attr:lead.success}}" data-error="{{attr:lead.error}}">
+      <input type="hidden" name="form-name" value="join">
+      <input type="hidden" name="lang" value="{{lang}}">
+      <p hidden><label>Leave empty: <input name="bot-field"></label></p>
+      <label class="lead-field"><span>{{lead.name}}</span><input name="name" required autocomplete="name"></label>
+      <label class="lead-field"><span>{{lead.email}}</span><input type="email" name="email" required autocomplete="email" dir="ltr"></label>
+      <label class="lead-field"><span>{{lead.role}}</span><select name="role" required><option value="" disabled selected></option><option value="teacher">{{lead.teacher}}</option><option value="parent">{{lead.parent}}</option><option value="school">{{lead.school}}</option><option value="other">{{lead.other}}</option></select></label>
+      <label class="lead-consent"><input type="checkbox" name="consent" value="yes" required> <span>{{lead.consentPre}}<a href="/{{path}}privacy/">{{lead.consentLink}}</a>{{lead.consentPost}}</span></label>
+      <button class="lead-submit" type="submit">{{lead.submit}}</button>
+      <p class="lead-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
 </main>
 
 <footer class="foot">
@@ -198,6 +216,7 @@
   </symbol>
 </svg>
 
+<script src="/forms.js" defer></script>
 <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "5d585088b4f0426c8270977f8dc5e5f5"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
