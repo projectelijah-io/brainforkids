@@ -85,5 +85,22 @@
     "founder": "Founded by Ronen Priewer",
     "venture": "A Project Elijah venture",
     "privacy": "Privacy"
+  },
+  "lead": {
+    "title": "Join the declaration",
+    "intro": "Teachers, parents and schools who want to be part of the pilot, or simply hear what comes next: leave your details and we will be in touch.",
+    "name": "Name",
+    "email": "Email",
+    "role": "I am a",
+    "teacher": "Teacher",
+    "parent": "Parent",
+    "school": "School",
+    "other": "Other",
+    "consentPre": "I have read and agree to the ",
+    "consentLink": "privacy policy",
+    "consentPost": "",
+    "submit": "Join",
+    "success": "Thank you! We will let you know when the pilot begins.",
+    "error": "Sending failed. Please try again in a moment, or write to privacy@projectelijah.io."
   }
 }
