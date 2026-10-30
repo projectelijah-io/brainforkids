@@ -42,6 +42,15 @@ netlify.toml           Build command + publish dir
 - Asset URLs are root-absolute (`/styles.css`), because pages live at `/`, `/en/`, `/ja/`.
 - Pages work without JavaScript; animations respect `prefers-reduced-motion`.
 
+## Project Elijah strip
+
+The last row of every page's footer is the network strip (`.pe-strip-row` > `a.pe-strip`): the gold
+Project Elijah spark and "A Project Elijah venture · Social Tech Vision Capital" (keys `footer.venture`,
+`footer.vc`), linking to the hub in the page's language (`https://projectelijah.io/{{peLang}}`). It is
+the only link to the Project Elijah network — hub only, never links to other ventures. Home pages:
+template + `site/styles.css`; privacy pages (hand-written in `site/`, own `<style>`): same markup
+by hand. The template head carries an `Organization` JSON-LD with `parentOrganization` Project Elijah.
+
 ## Local preview
 
 `node build.mjs && npx serve dist`

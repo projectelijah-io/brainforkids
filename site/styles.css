@@ -161,12 +161,21 @@ h3 { font-size: 22px; font-weight: 500; line-height: 1.3; }
 .pilot-body { font-size: clamp(22px, 2.6vw, 30px); line-height: 1.45; color: var(--soft); }
 
 /* Footer */
-.foot { border-block-start: 1px solid var(--faint); padding-block: 48px; }
-.foot-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.foot { border-block-start: 1px solid var(--faint); padding-block: 48px 0; }
+.foot-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; padding-block-end: 48px; }
 .foot-brand { display: flex; align-items: center; gap: 16px; }
 .foot-brand .mark { width: 72px; height: 35px; color: var(--white); }
 .foot-tag { color: var(--silver); font-size: 14px; }
 .foot-meta { display: flex; gap: 24px; flex-wrap: wrap; color: var(--silver); font-size: 14px; }
+/* Project Elijah strip: the one link back to the hub, same on every venture site (colours follow this footer) */
+.pe-strip-row { border-block-start: 1px solid rgba(154, 166, 196, .16); padding: 14px 20px 18px; text-align: center; }
+a.pe-strip { display: inline-flex; align-items: center; gap: 8px; font-size: 12.5px; line-height: 1.5; letter-spacing: .02em; color: var(--silver); text-decoration: none; }
+a.pe-strip:hover, a.pe-strip:focus-visible { color: var(--white); }
+a.pe-strip:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-radius: 2px; }
+.pe-spark { flex: none; }
+.pe-strip > span { text-align: center; }
+.pe-nw { white-space: nowrap; }
+html[lang="ja"] a.pe-strip { letter-spacing: 0; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
